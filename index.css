@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 600;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 700;        font-style: normal;
+}
+
+body {
+    margin: 40px 40px;
+}
+
+h1 {
+    font: Young Serif;
+    font-weight: 500;
+    font-size: 80px;
+    text-align: left;
+    color: rgb(51,51,51)
+}
+
+h3 {
+    font: 'Outfit';
+    font-weight: 400;
+    font-weight: normal;
+    font-size: x-large;
+    margin-right: 100px;
+    color: rgb(51,51,51)
+
+}
+section.Preparation-time h3 {
+    margin-left: 15px;
+    font-family: 'Outfit'; 
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+section.Ingredients h3 {
+    font: Young Serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+section.Instructions h3 {
+    font: Young Serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+section.Nutrition h3 {
+    font: Young Serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+strong {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(51,51,51)
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+    margin: 50px auto;
+}
+
+.Preparation-time {
+    background-color: hsl(330, 85%, 89%);
+    border-radius: 25px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 6px;
+
+}
+li,p,td {
+    margin: 16px;
+    padding-left: 6px;
+    font: Young Serif;
+    font-size: x-large;
+    color: rgb(51,51,51)
+}
+span{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit';
+    font-weight: bold;
+    float: right;
+    width: 50%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.first-line td,.second-line td,.third-line td {
+    border-bottom: 1px solid;
+    width: 100%;
+    
+}
+td {
+    height: 50px;
+    color: rgb(51,51,51)
+    width: 50px;
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+footer {
+    text-align: center;
+    margin-top: 15px;
+}
+footer::before, footer::after {
+    content: "**";
+}
+hr {
+    margin: 50px 0;
+}
+
+
+/* Add media queries for mobile devices */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px; /* Reduce margin for mobile */
+    }
+
+    h1 {
+        font-size: 32px; /* Smaller font size for mobile */
+    }
+
+    h3 {
+        font-size: 24px; /* Adjust heading size for mobile */
+        margin-right: 0; /* Remove margin for mobile */
+    }
+
+    li, p, td {
+        font-size: large; /* Adjust font size for list items, paragraphs, and table cells */
+    }
+
+    span {
+        width: 50%; /* Adjust width for mobile */
+        float: right; /* Remove float for mobile */
+
+    }
+
+    img {
+        margin: 20px auto; /* Adjust image margin for mobile */
+    }
+
+    .Preparation-time {
+        padding: 4px; /* Reduce padding for mobile */
+    }
+
+    td {
+        height: auto; /* Allow height to adjust based on content */
+        width: auto; /* Allow width to adjust based on content */
+    }
+}
+
